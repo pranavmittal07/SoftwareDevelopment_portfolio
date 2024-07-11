@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div>
+        <h3>Welcome to the Password Generator</h3>
+        <br>
+        <div class="slide">
+            <input type="range" id="range" min="6" max="20" value="10">
+            <div class="">
+                <h1 id="newPass"></h1>
+                <i class="fa-regular fa-copy" id="copyBtn"></i>
+            </div>
+            <br>
+            <p id="rangeVal"></p>
+        </div>
+    
+        <div class="checkbox">
+            <form action="">
+                <input type="checkbox" name="capLet" id="capLet">
+                <label for="capLet">Upper Case</label>
+                <br>
+                <input type="checkbox" name="smallLet" id="smallLet">
+                <label for="capLet">Lower Case</label>
+                <br>
+                <input type="checkbox" name="number" id="number">
+                <label for="capLet">Numbers</label>
+                <br>
+                <input type="checkbox" name="symbol" id="symbol">
+                <label for="capLet">Symbols</label>
+                <br>
+            </form>
+        </div>
+    
+        <div>
+            <button id="button">Generate Password</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

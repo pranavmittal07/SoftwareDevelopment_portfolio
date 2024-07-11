@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h3{
+    margin:auto;
+    font-size: 40px;
+    padding: 20px;
+    color: red;
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;
+}
+
+#copyBtn{
+    font-size: 40px;
+}
+
+#rangeVal{
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 8px;
+    background-color: blue;
+    color: chartreuse;
+    width: 10vh;
+    margin: 10px;
+    padding: 5px;
+}
+.checkbox form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 6px solid rgb(188, 47, 47);
+    border-radius: 20px;
+    background-color: rgb(80, 186, 158);
+    height: 80vh;
+    width: 80vh;
+    margin: auto;
+}
+
+#button{
+    font-size: 40px;
+    border-radius: 30px;
+    width: 80vh;
+    margin: auto;
+    margin-top: 20px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
+
+.slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto
+
+
+}
+
+label{
+    font-size: 40px;
+    padding: 20px;
+}
+
+#capLet,#smallLet, #number, #symbol{
+    size: 40px;
+
+}
+
+p{
+    font-size: 20px;
+}
+
+#range{
+    width: 80vh;
+    margin: auto;
+    
+}

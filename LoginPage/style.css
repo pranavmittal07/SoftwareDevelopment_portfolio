@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.Loginpage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-width: 300px;
+    max-width: 500px;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.225);
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    padding: 30px; /* Added padding */
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.password {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between; /* Added alignment */
+    width: 100%;
+    align-items: center; /* Added alignment */
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer; /* Added cursor */
+}
+
+h1 {
+    font-size: 48px;
+    padding: 20px;
+}
+
+button {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background: linear-gradient(rgba(255, 255, 0, 0.5), lightgreen);
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+p {
+    cursor: pointer;
+    color: #333;
+    text-decoration: underline; /* Underline added */
+    margin-left: 10px; /* Adjust spacing */
+}
+
+p:hover {
+    color: #000;
+}
